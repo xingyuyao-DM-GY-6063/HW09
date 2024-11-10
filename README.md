@@ -6,9 +6,18 @@
   slider.position((height * 5) / 4, height / 2);
   slider.size(320);
   ```
-![alt text](image-1.png)
-![alt text](image-2.png)
+
+![slider1](image-1.png)
+![slider2](image-2.png)
+
 
 **After that,I want to add transparency and image behind**
-草间弥生（1929年生），《南瓜 [FBAN]》，2013年作。
+Import image
+
+![pumpkin](assets/pumpkin.jpg)
+
+Yayoi Kusama (b. 1929), 'Pumpkin,' 2013.
+
+write code to add transparecy 
+` oImg.pixels[idx + 3] = 255 - s;`
 ## HW09B

@@ -60,7 +60,4 @@ function draw() {
   image(oImg, 0, 0);
 }
 
-// TODO: do any filtering and pixel modifications here.
-//       This involves a for loop of some kind.
-//       Remember to read from the oImg pixels and write to the mImg.
-// we'll display the updated mImg, so let's update its pixels
+
