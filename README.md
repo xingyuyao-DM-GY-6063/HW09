@@ -1,3 +1,5 @@
-# HW09 Template
+# HW09
+## HW09A
 
-For 2024F 6063B [HW09](https://6063b.github.io/homework/09/#/programming)
+
+## HW09B
