@@ -1,6 +1,6 @@
 # HW09
 ## HW09A
-**creating a slider to control the color**
+**Creating a slider to control the color**
 ```
   slider = createSlider(0, 255);
   slider.position((height * 5) / 4, height / 2);
@@ -12,12 +12,14 @@
 
 
 **After that,I want to add transparency and image behind**
-Import image
+
+
+- Import image
 
 ![pumpkin](assets/pumpkin.jpg)
 
 Yayoi Kusama (b. 1929), 'Pumpkin,' 2013.
 
-write code to add transparecy 
+- Write code to add transparecy 
 ` oImg.pixels[idx + 3] = 255 - s;`
 ## HW09B
