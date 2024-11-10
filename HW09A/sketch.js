@@ -13,7 +13,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   oImg.resize(0, height);
   mImg.resize(0, height);
-  pImg.resize(0, height);
+  pImg.resize(907, 1000);
 
   oImg.loadPixels();
   pImg.loadPixels();
