@@ -28,9 +28,16 @@ Yayoi Kusama (b. 1929), 'Pumpkin,' 2013.
 ## HW09B
 My project HW03B would like to achieve an effect like this:
 
+
 **Pixel Block Rendering**: The video feed is processed in chunks, creating a stylized "pixel block" effect.
+
+
 **Distortion with Random Offsets**: Each rectangle is slightly shifted to create a glitchy, distorted look.
+
+
 **Brightness-Based Scaling**: Brighter areas in the video show larger rectangles, while darker areas show smaller ones.
+
+
 **Variable Stroke Weight and Overlap**: Randomized stroke weight and multiple overlapping rectangles in darker areas.
 
 
