@@ -25,6 +25,9 @@ Yayoi Kusama (b. 1929), 'Pumpkin,' 2013.
 
 ` oImg.pixels[idx + 3] = 255 - s;`
 
+
+![collage](image.png)
+
 ## HW09B
 My project HW03B would like to achieve an effect like this:
 
