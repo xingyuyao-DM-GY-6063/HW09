@@ -1,5 +1,5 @@
 let mCamera;
-let blockSize = 20; 
+let blockSize = 20;
 
 function preload() {
   mCamera = createCapture(VIDEO);
@@ -21,7 +21,6 @@ function draw() {
   let spacing = blockSize * 1.2; // Increase spacing
   for (let y = 0; y < height; y += spacing) {
     for (let x = 0; x < width; x += spacing) {
-
       // Add random offsets to each square position to create a distortion effect
       let offsetX = x + random(-5, 5);
       let offsetY = y + random(-5, 5);
@@ -49,7 +48,7 @@ function draw() {
       for (let j = 0; j < overlapCount; j++) {
         // Set random stroke weight
         strokeWeight(random(0.5, 2.5));
-        
+
         // Randomised fine-tuning of positions to produce overlapping effects
         let offsetRectX = x + random(-5, 5);
         let offsetRectY = y + random(-5, 5);
